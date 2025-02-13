@@ -128,7 +128,7 @@ html::-webkit-scrollbar {
   }
 
   .row2 div marquee{
-    height:50vh ;
+    height:51vh ;
   }
 .row2 div a {
   color: black;
@@ -137,7 +137,7 @@ html::-webkit-scrollbar {
 .row2 div button{
   background-color: #041D53;
   color: #ffcb04;
-  width: 20vw;
+  width: 100%;
   padding: 5px;
   border-radius:20px ;
 }
@@ -177,9 +177,9 @@ footer div a{
 .menu{
   display: none;
 }
-@media(max-width:1200px){
+@media(max-width:1260px){
   .nav nav {
-    height:600px;
+    /* height:600px; */
     align-items:baseline ;
     flex-direction: column;
     gap:20px;
@@ -189,5 +189,37 @@ footer div a{
   .hidden .menu{
     display: block;
   }
+  main .row1 ,main .row2 {
+    flex-direction: column ;
+    align-items: center;
+  }
+  main .row1,main .row2{
+    gap:30px;
+  }
+  main .row1 div,main .row2 div{
+    width: 80vw;
+  }
+
+  nav input{
+    width: 40vw;
+  }
+  .row2 div marquee{
+    height:53vh ;
+  }
+  .row1 div{
+    height: 28vh;
+  }
 }
 
+@media (max-width:750px){
+   footer{
+    min-height: 90vh;
+  }
+  
+}
+
+@media (min-width:1300px){
+  .row2 div marquee{
+    height:53vh ;
+  }
+}
