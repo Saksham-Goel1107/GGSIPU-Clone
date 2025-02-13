@@ -1,0 +1,63 @@
+.flex{
+    display: flex;
+}
+
+.flex-column{
+    flex-direction: column;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.w500{
+    font-weight: 500;
+}
+.w700{
+    font-weight: 700;
+}
+
+.clrwht{
+    color: white;
+}
+
+.clrblk{
+    color:black;
+}
+
+.decoration-none{
+    text-decoration: none;
+}
+
+.fs19{
+    font-size: 19px;
+}
+
+.fs13{
+    font-size: 13px;
+}
+
+.fs16{
+    font-size: 16px;
+}
+
+.g15{
+    gap: 15px;
+}
+
+.context-menu{
+    cursor: context-menu;
+}
+
