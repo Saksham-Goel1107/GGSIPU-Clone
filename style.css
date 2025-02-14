@@ -137,6 +137,7 @@ marquee a {
 
 .row2 div marquee {
   height: 51vh;
+  max-height: 450px;
 }
 
 .row2 div a {
@@ -192,12 +193,12 @@ footer div a {
   display: none;
   height: 30px;
   position: absolute;
-  right: 70px;
+  right: 30px;
   top: 40px;
 }
 
 .menu {
-  height: 50px;
+  height: 40px;
 }
 
 @media(max-width:1260px) {
@@ -237,6 +238,7 @@ footer div a {
   nav input {
     width: 40vw;
     max-width: 200px;
+    min-width: 150px;
   }
 
   .row2 div marquee {
@@ -245,6 +247,10 @@ footer div a {
 
   .row1 div {
     height: 28vh;
+  }
+  .nav nav{
+    justify-content: space-between;
+    padding: 5px 10px;
   }
 }
 

@@ -1,6 +1,6 @@
-// setInterval(function() {
-//     window.location.reload();
-// }, 30000); 
+setInterval(function() {
+    window.location.reload();
+}, 30000); 
 
 document.addEventListener('contextmenu', function (e) {
     e.preventDefault();
@@ -53,8 +53,8 @@ function up() {
         hiddenElements[i].style.display = "none";
     }
     hamburger.style.flexDirection = "row"
-    hamburger.style.height = "100px"
-    hamburger.style.padding = "0"
+    hamburger.style.height = "80px"
+    hamburger.style.padding = "0 10px"
     hamburger.style.alignItems = "center"
 
 
