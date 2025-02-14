@@ -1,225 +1,278 @@
 @import url('https://fonts.googleapis.com/css2?family=Liter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", serif;
 }
 
-nav{
-    width: 100%;
-    background-color: #041D54;
-    padding: 8px 0;
-    gap: 10px;
+nav {
+  width: 100%;
+  background-color: #041D54;
+  padding: 8px 0;
+  gap: 10px;
 }
 
-nav a{
-    font-weight: 700;
-    color: white;
-    text-decoration: none;
+nav a {
+  font-weight: 700;
+  color: white;
+  text-decoration: none;
 }
 
-nav a:hover{
+nav a:hover {
   color: #ffcb04;
 }
 
-nav img{
-    height: 80px;
+nav img {
+  height: 80px;
 }
 
-nav input{
-    padding: 5px 7px;
-    border-radius: 7px;
-    border: none;
-    width: 12.5vw;
-    
+nav input {
+  padding: 5px 7px;
+  border-radius: 7px;
+  border: none;
+  width: 12.5vw;
+
 }
 
 .custom-carousel {
-    max-height: 90vh; /* Set the max height to 60% of the viewport height */
-  }
-  
-  .custom-carousel .carousel-item img {
-    height: 100%;
-    object-fit: cover; /* Make the image cover the entire height */
-    max-height: 90vh; /* Set the max height to 60% of the viewport height */
-  }
-  
+  max-height: 90vh;
+  /* Set the max height to 60% of the viewport height */
+}
+
+.custom-carousel .carousel-item img {
+  height: 100%;
+  object-fit: cover;
+  /* Make the image cover the entire height */
+  max-height: 90vh;
+  /* Set the max height to 60% of the viewport height */
+}
+
 /* Custom scroll bar for webkit browsers (Chrome, Safari, Edge) */
 html::-webkit-scrollbar {
-    width: 12px;
-  }
-  
-  html::-webkit-scrollbar-track {
-    background: #333;
-  }
-  
-  html::-webkit-scrollbar-thumb {
-    background-color: #555;
-    border-radius: 10px;
-    border: 3px solid #333;
-  }
-  
-  html::-webkit-scrollbar-thumb:hover {
-    background: #111;
-  }
-  
-  /* Custom scroll bar for Firefox */
-  html {
-    scrollbar-width: thin;
-    scrollbar-color: #555 #333;
-  }
-  
+  width: 12px;
+}
 
-  .marquee1{
-    font-size: 18px;
-    background-color: #BEECFC;
-    font-weight: 600;
-    padding: 4px 0;
+html::-webkit-scrollbar-track {
+  background: #333;
+}
 
-  }
-  marquee a{
-    text-decoration: none;
-  }
+html::-webkit-scrollbar-thumb {
+  background-color: #555;
+  border-radius: 10px;
+  border: 3px solid #333;
+}
 
-  .linkcontainer{
-    color:black;
-  }
+html::-webkit-scrollbar-thumb:hover {
+  background: #111;
+}
 
-  .row1 div{
-    background-color:#E2F6FE ;
-    height: 32vh;
-    width: 23vw;
-    max-height: 200px;
-    padding: 15px;
-    border-radius: 7px;
-    position: relative;
-  }
-  .row1 div img{
-    position: absolute;
-    top:-30px;
-  }
+/* Custom scroll bar for Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #555 #333;
+}
 
-  .row1 div a,.row1 .box4 span{
-    position: relative;
-    top: 30px;
-  }
 
-  .row1{
-    margin: 10vh 7vw 6vh 7vw;
-    gap: 1vw;
-  }
-  .row2{
-    margin: 6vh 7vw 20vh 7vw;
-    gap: 1vw;
-  }
+.marquee1 {
+  font-size: 18px;
+  background-color: #BEECFC;
+  font-weight: 600;
+  padding: 4px 0;
 
-  .row2 div{
-    background-color: #E2F6FE;
-    height: 75vh;
-    width: 23vw;
-    border-radius: 7px;
-    padding: 15px;
-    max-height: 600px;
-    
-  }
-  .row2 div ul li{
-    margin-bottom: 10px;
-  }
+}
 
-  .row2 div marquee{
-    height:51vh ;
-  }
+marquee a {
+  text-decoration: none;
+}
+
+.linkcontainer {
+  color: black;
+}
+
+.row1 div {
+  background-color: #E2F6FE;
+  height: 32vh;
+  width: 23vw;
+  max-height: 200px;
+  padding: 15px;
+  border-radius: 7px;
+  position: relative;
+}
+
+.row1 div img {
+  position: absolute;
+  top: -30px;
+}
+
+.row1 div a,
+.row1 .box4 span {
+  position: relative;
+  top: 30px;
+}
+
+.row1 {
+  margin: 10vh 7vw 6vh 7vw;
+  gap: 1vw;
+}
+
+.row2 {
+  margin: 6vh 7vw 20vh 7vw;
+  gap: 1vw;
+}
+
+.row2 div {
+  background-color: #E2F6FE;
+  height: 75vh;
+  width: 23vw;
+  border-radius: 7px;
+  padding: 15px;
+  max-height: 600px;
+
+}
+
+.row2 div ul li {
+  margin-bottom: 10px;
+}
+
+.row2 div marquee {
+  height: 51vh;
+}
+
 .row2 div a {
   color: black;
 }
 
-.row2 div button{
+.row2 div button {
   background-color: #041D53;
   color: #ffcb04;
   width: 100%;
   padding: 5px;
-  border-radius:20px ;
+  border-radius: 20px;
 }
 
-.row2 div h4{
-  height:11vh;
+.row2 div h4 {
+  height: 11vh;
   max-height: 70px;
-  border-bottom: 1px solid  #d3d3d3;
+  border-bottom: 1px solid #d3d3d3;
 }
 
-.row2 div button:hover{
-  transform: translate(1px,-4px);
-  transition:all 0.3s ease-in-out;
-  box-shadow: 4px 4px 3px rgba(0, 0, 0,0.5);
+.row2 div button:hover {
+  transform: translate(1px, -4px);
+  transition: all 0.3s ease-in-out;
+  box-shadow: 4px 4px 3px rgba(0, 0, 0, 0.5);
 }
 
-footer{
+footer {
   background-color: #041D53;
   width: 100%;
   height: 70vh;
   max-height: 400px;
 }
 
-footer img{
+footer img {
   height: 130px;
   position: relative;
   bottom: 70px;
   left: 10px;
 }
 
-footer div a{
+footer div a {
   color: white;
   text-decoration: none;
   font-size: 19px;
   font-weight: 400;
 }
-.menu{
+
+.hidden {
   display: none;
 }
-@media(max-width:1260px){
-  .nav nav {
-    /* height:600px; */
-    align-items:baseline ;
-    flex-direction: column;
-    gap:20px;
-    justify-content: normal;
-    padding: 20px 35px;
+
+.cross {
+  display: none;
+  height: 30px;
+  position: absolute;
+  right: 70px;
+  top: 40px;
+}
+
+.menu {
+  height: 50px;
+}
+
+@media(max-width:1260px) {
+
+  .nav nav a,
+  .nav nav .years25 {
+    display: none;
   }
-  .hidden .menu{
+
+
+
+  .hidden {
     display: block;
   }
-  main .row1 ,main .row2 {
-    flex-direction: column ;
+
+
+  .hidden .menu {
+    display: block;
+  }
+
+  main .row1,
+  main .row2 {
+    flex-direction: column;
     align-items: center;
   }
-  main .row1,main .row2{
-    gap:30px;
+
+  main .row1,
+  main .row2 {
+    gap: 30px;
   }
-  main .row1 div,main .row2 div{
+
+  main .row1 div,
+  main .row2 div {
     width: 80vw;
   }
 
-  nav input{
+  nav input {
     width: 40vw;
+    max-width: 200px;
   }
-  .row2 div marquee{
-    height:53vh ;
+
+  .row2 div marquee {
+    height: 53vh;
   }
-  .row1 div{
+
+  .row1 div {
     height: 28vh;
   }
 }
 
-@media (max-width:750px){
-   footer{
-    min-height: 90vh;
+@media (max-width:750px) {
+  footer {
+    min-height: 100vh;
   }
-  
+
+  footer p {
+    font-size: 13px;
+  }
+
+
+
 }
 
-@media (min-width:1300px){
-  .row2 div marquee{
-    height:53vh ;
+@media (max-width:600px) {
+  .nav nav .logo {
+    height: 70px;
+  }
+
+  .nav nav input {
+    display: none;
+  }
+}
+
+@media (min-width:1300px) {
+  .row2 div marquee {
+    height: 53vh;
   }
 }

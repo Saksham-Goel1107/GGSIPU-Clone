@@ -14,7 +14,7 @@
 <body>
     <div class="nav">
         <nav class="flex space-around align-center">
-            <img class="pointer" src="images/logo.png" alt="logo" />
+            <img class="logo pointer" src="images/logo.png" alt="logo" />
             <a href="">Admissions </a>
             <a href="">Academics </a>
             <a href="">Examinations</a>
@@ -24,9 +24,11 @@
                 Chancellor</a>
             <a href="">Quick Links... </a>
             <input type="text" placeholder="Search Links" />
-            <img class="pointer" src="images/25years.png" alt="years" />
-            <!-- <div class="hidden"><img class="menu" src="images/menu.png" alt=""></div> -->
+            <img class="years25 pointer" src="images/25years.png" alt="years" />
+            <div class="hidden pointer" onclick="down()"><img class="menu" src="images/menu.png" alt=""></div>
+
         </nav>
+        <img onclick="up()" class="cross pointer" src="images/cross.png" alt="cross">
     </div>
     <main>
         <div id="carouselExampleCaptions" class="carousel slide custom-carousel" data-bs-ride="carousel"
