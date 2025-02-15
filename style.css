@@ -306,3 +306,18 @@ footer div a {
     height: 800px;
   }
 }
+@media (max-width:450px){
+  footer{
+    min-height: 1250px;
+  }
+}
+@media (max-width:380px){
+  footer{
+    min-height: 1000px;
+  }
+}
+@media (max-width:360px){
+  footer{
+    min-height: 1100px;
+  }
+}
