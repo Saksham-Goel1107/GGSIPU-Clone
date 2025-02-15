@@ -1,6 +1,6 @@
 setInterval(function() {
     window.location.reload();
-}, 30000); 
+}, 120000); 
 
 document.addEventListener('contextmenu', function (e) {
     e.preventDefault();

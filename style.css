@@ -256,7 +256,7 @@ footer div a {
 
 @media (max-width:750px) {
   footer {
-    min-height: 100vh;
+    min-height: 800px;
   }
 
   footer p {
@@ -280,5 +280,29 @@ footer div a {
 @media (min-width:1300px) {
   .row2 div marquee {
     height: 53vh;
+  }
+}
+
+@media (max-height:414px){
+  .row1 div{
+    min-height: 170px;
+  }
+
+  .row2 div{
+    min-height: 500px;
+  }
+  .row2 marquee{
+    min-height: 380px;
+  }
+  
+
+  .row2 .box4{
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-height:450px){
+  footer{
+    height: 800px;
   }
 }
